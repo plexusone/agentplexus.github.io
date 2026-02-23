@@ -1,5 +1,14 @@
 [
   {
+    "slug": "multi-agent-spec-assistantkit-growing-ecosystem",
+    "title": "Multi-Agent-Spec and AssistantKit: A Growing Ecosystem for Subagents",
+    "excerpt": "The multi-agent-spec and AssistantKit ecosystem is maturing with multiple implementations including agent-team-release for Claude Code Agent Teams. Write agents once, deploy to Claude Code, Kiro CLI, and more.",
+    "date": "2026-02-22",
+    "readTime": "7 min",
+    "tags": ["Multi-Agent", "Subagents", "Claude Code", "Agent Teams"],
+    "author": "AgentPlexus Team"
+  },
+  {
     "slug": "introducing-releases-page",
     "title": "Introducing the Releases Page: Tracking Progress Across AgentPlexus",
     "excerpt": "We built ReleaseLog to aggregate GitHub releases across all our repositories into a single, filterable view with a GitHub-style heatmap. Now live at agentplexus.dev/releases.",

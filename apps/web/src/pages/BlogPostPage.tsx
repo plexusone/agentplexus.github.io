@@ -17,11 +17,34 @@ interface PostMeta {
     name: string
     tagline: string
     presentationUrl: string
+    linkType?: 'project' | 'academy'
   }[]
   relatedProducts?: RelatedProduct[]
 }
 
 const postMeta: Record<string, PostMeta> = {
+  'multi-agent-spec-assistantkit-growing-ecosystem': {
+    githubUrl: 'https://github.com/agentplexus/multi-agent-spec',
+    relatedProjects: [
+      {
+        slug: 'building-subagents',
+        name: 'Building Subagents with Claude Code & Kiro CLI',
+        tagline: 'Create custom subagents using multi-agent-spec and AssistantKit',
+        presentationUrl: 'https://agentplexus.dev/agentplexus-academy/agents-claude-code-kiro-cli/presentation.html',
+        linkType: 'academy',
+      },
+      {
+        slug: 'agent-teams-subagents',
+        name: 'Claude Code: Agent Teams vs Subagents',
+        tagline: 'Master multi-agent orchestration patterns in Claude Code',
+        presentationUrl: 'https://agentplexus.dev/agentplexus-academy/claude-code-agent-teams-subagents/presentation.html',
+        linkType: 'academy',
+      },
+    ],
+    relatedProducts: [
+      { slug: 'assistantkit', name: 'AssistantKit', color: 'cyan' },
+    ],
+  },
   'mcp-confluence-table-corruption': {
     githubUrl: 'https://github.com/agentplexus/mcp-confluence',
     relatedProducts: [
@@ -204,7 +227,11 @@ export function BlogPostPage() {
         {/* Related Projects with Presentations */}
         {extra?.relatedProjects && extra.relatedProjects.length > 0 && (
           <div className="mt-16">
-            <h2 className="text-2xl font-bold text-white mb-6">Full Case Studies with Presentations</h2>
+            <h2 className="text-2xl font-bold text-white mb-6">
+              {extra.relatedProjects.every((p) => p.linkType === 'academy')
+                ? 'Academy Courses'
+                : 'Full Case Studies with Presentations'}
+            </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {extra.relatedProjects.map((project) => (
                 <div
@@ -233,10 +260,10 @@ export function BlogPostPage() {
                     <p className="text-gray-400 text-sm mb-4">{project.tagline}</p>
                     <div className="flex gap-3">
                       <Link
-                        to={`/projects/${project.slug}`}
+                        to={`/${project.linkType === 'academy' ? 'academy' : 'projects'}/${project.slug}`}
                         className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-plexus-cyan to-plexus-purple text-white text-sm font-medium hover:opacity-90 transition-opacity"
                       >
-                        View Case Study
+                        {project.linkType === 'academy' ? 'View Course' : 'View Case Study'}
                       </Link>
                       <a
                         href={project.presentationUrl}
