@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, ExternalLink, Github, FileText, Layers, Code, BookOpen } from 'lucide-react'
+import { ArrowRight, Github, FileText, Layers, Code, BookOpen } from 'lucide-react'
 
 interface Specification {
   name: string
