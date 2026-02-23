@@ -6,6 +6,8 @@ const integrations = [
   { name: 'Anthropic', logo: '/integrations/anthropic.svg' },
   { name: 'Google Gemini', logo: '/integrations/gemini.svg' },
   { name: 'xAI', logo: '/integrations/xai.svg' },
+  { name: 'Claude Code', logo: '/integrations/claude-code.svg' },
+  { name: 'Kiro', logo: '/integrations/kiro.svg' },
   { name: 'Opik', logo: '/integrations/opik.svg' },
   { name: 'Phoenix', logo: '/integrations/phoenix.svg' },
   { name: 'Langfuse', logo: '/integrations/langfuse.svg' },

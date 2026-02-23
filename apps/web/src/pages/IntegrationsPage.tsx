@@ -17,6 +17,26 @@ interface Category {
 
 const categories: Category[] = [
   {
+    title: 'AI Coding Assistants',
+    description: 'Generate custom subagents and plugins',
+    module: 'AssistantKit',
+    moduleUrl: 'https://github.com/agentplexus/assistantkit',
+    integrations: [
+      {
+        name: 'Claude Code',
+        logo: '/integrations/claude-code.svg',
+        description: 'Custom subagents for Anthropic\'s CLI coding assistant',
+        url: 'https://docs.anthropic.com/en/docs/claude-code',
+      },
+      {
+        name: 'Kiro',
+        logo: '/integrations/kiro.svg',
+        description: 'Plugins for AWS\'s spec-driven AI development environment',
+        url: 'https://kiro.dev',
+      },
+    ],
+  },
+  {
     title: 'LLM Providers',
     description: 'Multi-provider language model abstraction',
     module: 'OmniLLM',

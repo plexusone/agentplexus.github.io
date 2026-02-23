@@ -152,7 +152,7 @@ const products = [
     color: 'cyan' as const,
     status: 'stable' as const,
     githubUrl: 'https://github.com/agentplexus/assistantkit',
-    integrations: [],
+    integrations: ['claude-code', 'kiro'],
   },
 ]
 
