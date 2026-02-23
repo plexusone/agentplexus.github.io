@@ -47,7 +47,7 @@ const postMeta: Record<string, PostMeta> = {
         slug: 'omniobserve-agentops',
         name: 'OmniObserve AgentOps',
         tagline: 'OpenTelemetry Semantic Conventions for Multi-Agent AI',
-        presentationUrl: 'https://agentplexus.github.io/omniobserve/semconvagent.html',
+        presentationUrl: 'https://agentplexus.dev/omniobserve/semconvagent.html',
       },
     ],
     relatedProducts: [
@@ -62,13 +62,13 @@ const postMeta: Record<string, PostMeta> = {
         slug: 'go-opik',
         name: 'go-opik',
         tagline: 'Go SDK for LLM Observability - Built in 4-5 Hours',
-        presentationUrl: 'https://agentplexus.github.io/go-opik/presentation.html',
+        presentationUrl: 'https://agentplexus.dev/go-opik/presentation.html',
       },
       {
         slug: 'go-elevenlabs',
         name: 'go-elevenlabs',
         tagline: 'Go SDK for AI Audio Generation - 19 Services',
-        presentationUrl: 'https://agentplexus.github.io/go-elevenlabs/presentation.html',
+        presentationUrl: 'https://agentplexus.dev/go-elevenlabs/presentation.html',
       },
     ],
     relatedProducts: [
@@ -84,7 +84,7 @@ const postMeta: Record<string, PostMeta> = {
         slug: 'stats-agent-team',
         name: 'Statistics Agent Team',
         tagline: 'Multi-Agent Statistics Verification System',
-        presentationUrl: 'https://agentplexus.github.io/stats-agent-team/presentation.html',
+        presentationUrl: 'https://agentplexus.dev/stats-agent-team/presentation.html',
       },
     ],
     relatedProducts: [

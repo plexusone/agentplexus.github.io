@@ -15,8 +15,8 @@ const projects = [
       { icon: Workflow, text: 'Eino orchestration' },
     ],
     githubUrl: 'https://github.com/agentplexus/stats-agent-team',
-    docsUrl: 'https://agentplexus.github.io/stats-agent-team/',
-    presentationUrl: 'https://agentplexus.github.io/stats-agent-team/presentation.html',
+    docsUrl: 'https://agentplexus.dev/stats-agent-team/',
+    presentationUrl: 'https://agentplexus.dev/stats-agent-team/presentation.html',
   },
   {
     name: 'OmniObserve AgentOps',
@@ -31,7 +31,7 @@ const projects = [
       { icon: Code, text: 'Middleware instrumentation' },
     ],
     githubUrl: 'https://github.com/agentplexus/omniobserve/tree/main/semconv/agent',
-    presentationUrl: 'https://agentplexus.github.io/omniobserve/semconvagent.html',
+    presentationUrl: 'https://agentplexus.dev/omniobserve/semconvagent.html',
   },
   {
     name: 'go-opik',
@@ -46,8 +46,8 @@ const projects = [
       { icon: Bot, text: 'Built with Claude Opus 4.5' },
     ],
     githubUrl: 'https://github.com/agentplexus/go-opik',
-    docsUrl: 'https://agentplexus.github.io/go-opik/',
-    presentationUrl: 'https://agentplexus.github.io/go-opik/presentation.html',
+    docsUrl: 'https://agentplexus.dev/go-opik/',
+    presentationUrl: 'https://agentplexus.dev/go-opik/presentation.html',
   },
   {
     name: 'go-elevenlabs',
@@ -62,8 +62,8 @@ const projects = [
       { icon: Bot, text: 'Built with Claude Opus 4.5' },
     ],
     githubUrl: 'https://github.com/agentplexus/go-elevenlabs',
-    docsUrl: 'https://agentplexus.github.io/go-elevenlabs/',
-    presentationUrl: 'https://agentplexus.github.io/go-elevenlabs/presentation.html',
+    docsUrl: 'https://agentplexus.dev/go-elevenlabs/',
+    presentationUrl: 'https://agentplexus.dev/go-elevenlabs/presentation.html',
   },
 ]
 

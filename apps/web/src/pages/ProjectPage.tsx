@@ -36,8 +36,8 @@ const projects: Record<string, Project> = {
     solution:
       'A 4-agent pipeline where each agent has a specific role: search for sources, extract statistics, verify against original pages, and orchestrate the workflow. This separation ensures accuracy and prevents hallucinations.',
     githubUrl: 'https://github.com/agentplexus/stats-agent-team',
-    docsUrl: 'https://agentplexus.github.io/stats-agent-team/',
-    presentationUrl: 'https://agentplexus.github.io/stats-agent-team/presentation.html',
+    docsUrl: 'https://agentplexus.dev/stats-agent-team/',
+    presentationUrl: 'https://agentplexus.dev/stats-agent-team/presentation.html',
     modules: [
       {
         name: 'OmniLLM',
@@ -93,8 +93,8 @@ const projects: Record<string, Project> = {
     solution:
       'Used Claude Opus 4.5 with Claude Code to analyze the Python SDK and OpenAPI spec, then generate a complete Go SDK with ogen for type-safe API clients, wrapper services for clean interfaces, and comprehensive tests.',
     githubUrl: 'https://github.com/agentplexus/go-opik',
-    docsUrl: 'https://agentplexus.github.io/go-opik/',
-    presentationUrl: 'https://agentplexus.github.io/go-opik/presentation.html',
+    docsUrl: 'https://agentplexus.dev/go-opik/',
+    presentationUrl: 'https://agentplexus.dev/go-opik/presentation.html',
     modules: [
       {
         name: 'OmniObserve',
@@ -140,8 +140,8 @@ const projects: Record<string, Project> = {
     solution:
       'Applied the same pattern: ogen for code generation (330K lines), wrapper services for clean interfaces, and comprehensive documentation. Created 19 service wrappers covering core audio, voice, and real-time features.',
     githubUrl: 'https://github.com/agentplexus/go-elevenlabs',
-    docsUrl: 'https://agentplexus.github.io/go-elevenlabs/',
-    presentationUrl: 'https://agentplexus.github.io/go-elevenlabs/presentation.html',
+    docsUrl: 'https://agentplexus.dev/go-elevenlabs/',
+    presentationUrl: 'https://agentplexus.dev/go-elevenlabs/presentation.html',
     modules: [
       {
         name: 'OmniVoice',
@@ -187,7 +187,7 @@ const projects: Record<string, Project> = {
     solution:
       'Extended gen_ai.agent.* namespace with workflow, task, handoff, and tool_call concepts. Built middleware that instruments agent systems with minimal code changes while providing full observability.',
     githubUrl: 'https://github.com/agentplexus/omniobserve/tree/main/semconv/agent',
-    presentationUrl: 'https://agentplexus.github.io/omniobserve/semconvagent.html',
+    presentationUrl: 'https://agentplexus.dev/omniobserve/semconvagent.html',
     modules: [
       {
         name: 'OmniObserve',
