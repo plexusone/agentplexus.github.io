@@ -204,7 +204,7 @@ Even after running axe and Lighthouse, manual testing is required for:
 
 ## Using the Rubric
 
-The full rubric is available at [RUBRIC.md](https://github.com/agentplexus/agentplexus-docs/blob/main/accessibility/RUBRIC.md). It includes:
+The full rubric is available at [RUBRIC.md](https://github.com/plexusone/agentplexus-docs/blob/main/accessibility/RUBRIC.md). It includes:
 
 - Detailed definitions for each severity level
 - Example WCAG success criteria at each level
@@ -232,7 +232,7 @@ For teams starting WCAG 2.2 AA work:
 
 ## Resources
 
-- [Our Severity Rating Rubric](https://github.com/agentplexus/agentplexus-docs/blob/main/accessibility/RUBRIC.md)
+- [Our Severity Rating Rubric](https://github.com/plexusone/agentplexus-docs/blob/main/accessibility/RUBRIC.md)
 - [WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
 - [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/)
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)

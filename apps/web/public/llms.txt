@@ -11,38 +11,38 @@ We provide composable infrastructure that lets developers build AI agents withou
 ## OmniLLM
 Multi-provider LLM abstraction layer. Unified interface for OpenAI, Anthropic, Google Gemini, xAI Grok, and Ollama.
 Supports streaming, tool calling, and observability hooks.
-GitHub: https://github.com/agentplexus/omnillm
+GitHub: https://github.com/plexusone/omnillm
 
 ## OmniVault
 Multi-provider secret management. Use environment variables, OS keyring, AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, HashiCorp Vault, or Kubernetes Secrets with the same API.
-GitHub: https://github.com/agentplexus/omnivault
+GitHub: https://github.com/plexusone/omnivault
 
 ## OmniSerp
 Multi-provider search abstraction. Query Serper.dev, SerpAPI, or other search backends with a consistent interface.
 Supports web, news, images, and video search.
-GitHub: https://github.com/agentplexus/omniserp
+GitHub: https://github.com/plexusone/omniserp
 
 ## OmniObserve
 Multi-provider LLM observability. Send traces to Opik (Comet), Langfuse, or Phoenix (Arize) without vendor lock-in.
 Includes AgentOps semantic conventions for multi-agent systems.
-GitHub: https://github.com/agentplexus/omniobserve
+GitHub: https://github.com/plexusone/omniobserve
 
 ## OmniVoice
 Multi-provider voice and audio. Text-to-speech via ElevenLabs, phone calls via Twilio.
 More providers coming soon.
-GitHub: https://github.com/agentplexus/omnivoice
+GitHub: https://github.com/plexusone/omnivoice
 
 ## Posture
 Cross-platform security assessment. Check TPM, Secure Boot, disk encryption, and biometrics on macOS, Windows, and Linux.
-GitHub: https://github.com/agentplexus/posture
+GitHub: https://github.com/plexusone/posture
 
 ## VaultGuard
 Security-gated credentials. Combines Posture security checks with OmniVault secret management.
-GitHub: https://github.com/agentplexus/vaultguard
+GitHub: https://github.com/plexusone/vaultguard
 
 ## AgentKit
 Reusable agent components. Base agent patterns, LLM factory, Eino orchestration utilities, and Helm chart templates.
-GitHub: https://github.com/agentplexus/agentkit
+GitHub: https://github.com/plexusone/agentkit
 
 # Key Concepts
 - All modules are written in Go

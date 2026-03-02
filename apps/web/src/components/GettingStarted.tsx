@@ -4,14 +4,14 @@ import { useState } from 'react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
-const installCommand = `go get github.com/agentplexus/omnillm
-go get github.com/agentplexus/omniobserve`
+const installCommand = `go get github.com/plexusone/omnillm
+go get github.com/plexusone/omniobserve`
 
 const codeExample = `package main
 
 import (
-    "github.com/agentplexus/omnillm"
-    "github.com/agentplexus/omniobserve"
+    "github.com/plexusone/omnillm"
+    "github.com/plexusone/omniobserve"
 )
 
 func main() {

@@ -24,7 +24,7 @@ interface PostMeta {
 
 const postMeta: Record<string, PostMeta> = {
   'multi-agent-spec-assistantkit-growing-ecosystem': {
-    githubUrl: 'https://github.com/agentplexus/multi-agent-spec',
+    githubUrl: 'https://github.com/plexusone/multi-agent-spec',
     relatedProjects: [
       {
         slug: 'building-subagents',
@@ -46,13 +46,13 @@ const postMeta: Record<string, PostMeta> = {
     ],
   },
   'mcp-confluence-table-corruption': {
-    githubUrl: 'https://github.com/agentplexus/mcp-confluence',
+    githubUrl: 'https://github.com/plexusone/mcp-confluence',
     relatedProducts: [
       { slug: 'vaultguard', name: 'VaultGuard', color: 'purple' },
     ],
   },
   'security-gated-mcp-servers': {
-    githubUrl: 'https://github.com/agentplexus/omniserp',
+    githubUrl: 'https://github.com/plexusone/omniserp',
     relatedProducts: [
       { slug: 'vaultguard', name: 'VaultGuard', color: 'purple' },
       { slug: 'omnivault', name: 'OmniVault', color: 'purple' },
@@ -61,10 +61,10 @@ const postMeta: Record<string, PostMeta> = {
     ],
   },
   'wcag-accessibility-with-ai': {
-    githubUrl: 'https://github.com/agentplexus/agentplexus-docs/tree/main/accessibility',
+    githubUrl: 'https://github.com/plexusone/agentplexus-docs/tree/main/accessibility',
   },
   'otel-semantic-conventions-agentic-ai': {
-    githubUrl: 'https://github.com/agentplexus/omniobserve/tree/main/semconv/agent',
+    githubUrl: 'https://github.com/plexusone/omniobserve/tree/main/semconv/agent',
     relatedProjects: [
       {
         slug: 'omniobserve-agentops',
@@ -78,7 +78,7 @@ const postMeta: Record<string, PostMeta> = {
     ],
   },
   'ai-assisted-sdk-development': {
-    githubUrl: 'https://github.com/agentplexus/go-opik',
+    githubUrl: 'https://github.com/plexusone/go-opik',
     projectUrl: '/projects/go-opik',
     relatedProjects: [
       {
@@ -100,7 +100,7 @@ const postMeta: Record<string, PostMeta> = {
     ],
   },
   'building-stats-agent-team': {
-    githubUrl: 'https://github.com/agentplexus/stats-agent-team',
+    githubUrl: 'https://github.com/plexusone/stats-agent-team',
     projectUrl: '/projects/stats-agent-team',
     relatedProjects: [
       {

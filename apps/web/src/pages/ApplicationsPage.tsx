@@ -23,7 +23,7 @@ const applications: Application[] = [
     tagline: 'Multi-Runtime AI Agent',
     description:
       'Production-ready AI agent built on AgentKit. Supports tool use, multi-model providers, and deployment to Kubernetes or AWS Bedrock AgentCore. The reference implementation of the AgentPlexus stack.',
-    githubUrl: 'https://github.com/agentplexus/omniagent',
+    githubUrl: 'https://github.com/plexusone/omniagent',
     docsUrl: 'https://agentplexus.dev/omniagent/',
     highlights: [
       {

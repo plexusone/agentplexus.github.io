@@ -39,7 +39,7 @@ export function Hero() {
             Explore Products
           </a>
           <a
-            href="https://github.com/agentplexus"
+            href="https://github.com/plexusone"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/5 focus-visible:bg-white/5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-plexus-purple focus-visible:ring-offset-2 focus-visible:ring-offset-plexus-dark"

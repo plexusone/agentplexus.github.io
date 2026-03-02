@@ -23,8 +23,8 @@ const specifications: Specification[] = [
     tagline: 'Platform-Agnostic Agent Definitions',
     description:
       'A specification format for defining AI agents, skills, and commands using Markdown with YAML frontmatter. Write once, deploy to Claude Code, Kiro CLI, and other platforms via assistantkit.',
-    githubUrl: 'https://github.com/agentplexus/multi-agent-spec',
-    docsUrl: 'https://github.com/agentplexus/multi-agent-spec/blob/main/README.md',
+    githubUrl: 'https://github.com/plexusone/multi-agent-spec',
+    docsUrl: 'https://github.com/plexusone/multi-agent-spec/blob/main/README.md',
     components: [
       {
         name: 'Agents',

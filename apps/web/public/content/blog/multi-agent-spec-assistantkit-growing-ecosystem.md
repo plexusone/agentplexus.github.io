@@ -2,7 +2,7 @@
 
 Subagents are becoming a core pattern in AI-assisted development. Claude Code has the Task tool for spawning specialized agents, and Kiro CLI has its own plugin system. But defining subagents that work across these platforms has been fragmented—until now.
 
-We've been building [multi-agent-spec](https://github.com/agentplexus/multi-agent-spec) and [AssistantKit](https://github.com/agentplexus/assistantkit) to solve this problem. As the ecosystem matures, we're seeing multiple implementations emerge, including support for Claude Code Agent Teams.
+We've been building [multi-agent-spec](https://github.com/plexusone/multi-agent-spec) and [AssistantKit](https://github.com/plexusone/assistantkit) to solve this problem. As the ecosystem matures, we're seeing multiple implementations emerge, including support for Claude Code Agent Teams.
 
 ## The Problem: Platform-Specific Agent Definitions
 
@@ -16,7 +16,7 @@ This means duplicating work across platforms, or choosing one and losing portabi
 
 ## The Solution: multi-agent-spec
 
-[multi-agent-spec](https://github.com/agentplexus/multi-agent-spec) is a platform-agnostic specification format for defining AI agents, skills, and commands. It uses YAML frontmatter with Markdown content:
+[multi-agent-spec](https://github.com/plexusone/multi-agent-spec) is a platform-agnostic specification format for defining AI agents, skills, and commands. It uses YAML frontmatter with Markdown content:
 
 ```yaml
 ---
@@ -44,7 +44,7 @@ The specification supports:
 
 ## The Tooling: AssistantKit
 
-[AssistantKit](https://github.com/agentplexus/assistantkit) transforms multi-agent-spec definitions into platform-specific plugins. Write your agent once, generate for multiple targets:
+[AssistantKit](https://github.com/plexusone/assistantkit) transforms multi-agent-spec definitions into platform-specific plugins. Write your agent once, generate for multiple targets:
 
 ```bash
 # Generate Claude Code subagent
@@ -110,8 +110,8 @@ If you're building custom subagents or exploring multi-agent systems, check out 
 
 ## Resources
 
-- [multi-agent-spec specification](https://github.com/agentplexus/multi-agent-spec)
-- [AssistantKit CLI](https://github.com/agentplexus/assistantkit)
+- [multi-agent-spec specification](https://github.com/plexusone/multi-agent-spec)
+- [AssistantKit CLI](https://github.com/plexusone/assistantkit)
 - [agent-team-release for Claude Code Agent Teams](https://github.com/grokify/agent-team-release)
 - [Academy: Building Subagents](/academy/building-subagents)
 - [Academy: Agent Teams vs Subagents](/academy/agent-teams-subagents)

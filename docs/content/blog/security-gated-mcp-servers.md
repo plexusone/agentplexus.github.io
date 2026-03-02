@@ -203,8 +203,8 @@ The VaultGuard pattern can be applied to any MCP server:
 
 ```go
 import (
-    keyring "github.com/agentplexus/omnivault-keyring"
-    "github.com/agentplexus/vaultguard"
+    keyring "github.com/plexusone/omnivault-keyring"
+    "github.com/plexusone/vaultguard"
 )
 
 func main() {
@@ -242,7 +242,7 @@ We're planning to add this pattern to:
 ### Install mcp-omniserp
 
 ```bash
-go install github.com/agentplexus/omniserp/cmd/mcp-omniserp@latest
+go install github.com/plexusone/omniserp/cmd/mcp-omniserp@latest
 ```
 
 ### Option 1: Use environment variables (existing behavior)
@@ -309,7 +309,7 @@ The pattern is reusable across any MCP server. We're applying it to our Confluen
 
 ## Resources
 
-- [mcp-omniserp on GitHub](https://github.com/agentplexus/omniserp)
+- [mcp-omniserp on GitHub](https://github.com/plexusone/omniserp)
 - [VaultGuard documentation](https://agentplexus.github.io/vaultguard/)
-- [OmniVault documentation](https://github.com/agentplexus/omnivault)
-- [Posture documentation](https://github.com/agentplexus/posture)
+- [OmniVault documentation](https://github.com/plexusone/omnivault)
+- [Posture documentation](https://github.com/plexusone/posture)

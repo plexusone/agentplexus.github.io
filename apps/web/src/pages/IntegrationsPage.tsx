@@ -20,7 +20,7 @@ const categories: Category[] = [
     title: 'AI Coding Assistants',
     description: 'Generate custom subagents and plugins',
     module: 'AssistantKit',
-    moduleUrl: 'https://github.com/agentplexus/assistantkit',
+    moduleUrl: 'https://github.com/plexusone/assistantkit',
     integrations: [
       {
         name: 'Claude Code',
@@ -40,7 +40,7 @@ const categories: Category[] = [
     title: 'LLM Providers',
     description: 'Multi-provider language model abstraction',
     module: 'OmniLLM',
-    moduleUrl: 'https://github.com/agentplexus/omnillm',
+    moduleUrl: 'https://github.com/plexusone/omnillm',
     integrations: [
       {
         name: 'OpenAI',
@@ -78,7 +78,7 @@ const categories: Category[] = [
     title: 'Observability',
     description: 'LLM tracing and monitoring platforms',
     module: 'OmniObserve',
-    moduleUrl: 'https://github.com/agentplexus/omniobserve',
+    moduleUrl: 'https://github.com/plexusone/omniobserve',
     integrations: [
       {
         name: 'Opik',
@@ -104,7 +104,7 @@ const categories: Category[] = [
     title: 'Search',
     description: 'Web search APIs for retrieval and research',
     module: 'OmniSerp',
-    moduleUrl: 'https://github.com/agentplexus/omniserp',
+    moduleUrl: 'https://github.com/plexusone/omniserp',
     integrations: [
       {
         name: 'Serper',
@@ -124,7 +124,7 @@ const categories: Category[] = [
     title: 'Voice & Audio',
     description: 'Speech-to-text and text-to-speech providers',
     module: 'OmniVoice',
-    moduleUrl: 'https://github.com/agentplexus/omnivoice',
+    moduleUrl: 'https://github.com/plexusone/omnivoice',
     integrations: [
       {
         name: 'Deepgram',
@@ -150,7 +150,7 @@ const categories: Category[] = [
     title: 'Infrastructure',
     description: 'Deployment and orchestration platforms',
     module: 'AgentKit',
-    moduleUrl: 'https://github.com/agentplexus/agentkit',
+    moduleUrl: 'https://github.com/plexusone/agentkit',
     integrations: [
       {
         name: 'AWS Bedrock AgentCore',
@@ -194,7 +194,7 @@ const categories: Category[] = [
     title: 'Secret Management',
     description: 'Cloud and local secret storage providers',
     module: 'OmniVault',
-    moduleUrl: 'https://github.com/agentplexus/omnivault',
+    moduleUrl: 'https://github.com/plexusone/omnivault',
     integrations: [
       {
         name: 'AWS',
@@ -226,7 +226,7 @@ const categories: Category[] = [
     title: 'Security Posture',
     description: 'Endpoint security analysis and compliance',
     module: 'VaultGuard',
-    moduleUrl: 'https://github.com/agentplexus/vaultguard',
+    moduleUrl: 'https://github.com/plexusone/vaultguard',
     integrations: [
       {
         name: 'macOS',

@@ -34,7 +34,7 @@ const courses: Record<string, Course> = {
     duration: '45 min',
     level: 'Intermediate',
     presentationUrl: 'https://agentplexus.dev/agentplexus-academy/agents-claude-code-kiro-cli/presentation.html',
-    githubUrl: 'https://github.com/agentplexus/agentplexus-academy/tree/main/agents-claude-code-kiro-cli',
+    githubUrl: 'https://github.com/plexusone/agentplexus-academy/tree/main/agents-claude-code-kiro-cli',
     prerequisites: [
       'Basic understanding of Claude Code or Kiro CLI',
       'Familiarity with YAML and Markdown',
@@ -76,17 +76,17 @@ const courses: Record<string, Course> = {
     resources: [
       {
         name: 'multi-agent-spec',
-        url: 'https://github.com/agentplexus/multi-agent-spec',
+        url: 'https://github.com/plexusone/multi-agent-spec',
         type: 'github',
       },
       {
         name: 'assistantkit',
-        url: 'https://github.com/agentplexus/assistantkit',
+        url: 'https://github.com/plexusone/assistantkit',
         type: 'github',
       },
       {
         name: 'agent-team-release (Example)',
-        url: 'https://github.com/agentplexus/agent-team-release',
+        url: 'https://github.com/plexusone/agent-team-release',
         type: 'github',
       },
     ],
@@ -100,7 +100,7 @@ const courses: Record<string, Course> = {
     duration: '60 min',
     level: 'Intermediate',
     presentationUrl: 'https://agentplexus.dev/agentplexus-academy/claude-code-agent-teams-subagents/presentation.html',
-    githubUrl: 'https://github.com/agentplexus/agentplexus-academy/tree/main/claude-code-agent-teams-subagents',
+    githubUrl: 'https://github.com/plexusone/agentplexus-academy/tree/main/claude-code-agent-teams-subagents',
     prerequisites: [
       'Experience with Claude Code',
       'Basic understanding of AI agents',
@@ -142,12 +142,12 @@ const courses: Record<string, Course> = {
     resources: [
       {
         name: 'Tutorial',
-        url: 'https://github.com/agentplexus/agentplexus-academy/blob/main/claude-code-agent-teams-subagents/tutorial.md',
+        url: 'https://github.com/plexusone/agentplexus-academy/blob/main/claude-code-agent-teams-subagents/tutorial.md',
         type: 'docs',
       },
       {
         name: 'Architecture Comparison',
-        url: 'https://github.com/agentplexus/agentplexus-academy/blob/main/claude-code-agent-teams-subagents/architecture-comparison.md',
+        url: 'https://github.com/plexusone/agentplexus-academy/blob/main/claude-code-agent-teams-subagents/architecture-comparison.md',
         type: 'docs',
       },
       {

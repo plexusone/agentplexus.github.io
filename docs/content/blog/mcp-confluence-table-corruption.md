@@ -113,7 +113,7 @@ This would allow organizations to require disk encryption, biometric authenticat
 ## Getting Started
 
 ```bash
-go install github.com/agentplexus/mcp-confluence/cmd/mcp-confluence@latest
+go install github.com/plexusone/mcp-confluence/cmd/mcp-confluence@latest
 ```
 
 Configure in Claude Desktop or Claude Code:
@@ -135,7 +135,7 @@ Configure in Claude Desktop or Claude Code:
 
 ## Resources
 
-- [mcp-confluence on GitHub](https://github.com/agentplexus/mcp-confluence)
+- [mcp-confluence on GitHub](https://github.com/plexusone/mcp-confluence)
 - [mcp-confluence Presentation](https://agentplexus.github.io/mcp-confluence/)
 - [Security-Gated MCP Servers with VaultGuard](/blog/security-gated-mcp-servers)
 - [Confluence Storage Format Documentation](https://confluence.atlassian.com/doc/confluence-storage-format-790796544.html)

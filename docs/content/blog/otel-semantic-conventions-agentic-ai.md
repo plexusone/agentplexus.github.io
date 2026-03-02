@@ -108,8 +108,8 @@ The conventions are implemented as middleware that minimizes code changes:
 
 ```go
 import (
-    "github.com/agentplexus/omniobserve/agentops"
-    "github.com/agentplexus/omniobserve/agentops/middleware"
+    "github.com/plexusone/omniobserve/agentops"
+    "github.com/plexusone/omniobserve/agentops/middleware"
 )
 
 // 1. Create a store

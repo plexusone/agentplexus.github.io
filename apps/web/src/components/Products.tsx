@@ -15,7 +15,7 @@ const products = [
     ],
     color: 'cyan' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/omnillm',
+    githubUrl: 'https://github.com/plexusone/omnillm',
     integrations: ['openai', 'anthropic', 'gemini', 'xai', 'ollama'],
   },
   {
@@ -32,7 +32,7 @@ const products = [
     ],
     color: 'purple' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/omnivault',
+    githubUrl: 'https://github.com/plexusone/omnivault',
     integrations: ['aws', 'macos', 'windows', 'linux'],
   },
   {
@@ -49,7 +49,7 @@ const products = [
     ],
     color: 'pink' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/omniserp',
+    githubUrl: 'https://github.com/plexusone/omniserp',
     integrations: ['serper', 'serpapi'],
   },
   {
@@ -66,7 +66,7 @@ const products = [
     ],
     color: 'violet' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/omniobserve',
+    githubUrl: 'https://github.com/plexusone/omniobserve',
     integrations: ['opik', 'langfuse', 'phoenix'],
   },
   {
@@ -83,7 +83,7 @@ const products = [
     ],
     color: 'cyan' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/posture',
+    githubUrl: 'https://github.com/plexusone/posture',
     integrations: ['macos', 'windows', 'linux'],
   },
   {
@@ -100,7 +100,7 @@ const products = [
     ],
     color: 'purple' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/vaultguard',
+    githubUrl: 'https://github.com/plexusone/vaultguard',
     integrations: ['macos', 'windows', 'linux'],
   },
   {
@@ -117,7 +117,7 @@ const products = [
     ],
     color: 'pink' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/agentkit',
+    githubUrl: 'https://github.com/plexusone/agentkit',
     integrations: ['agentcore', 'kubernetes', 'helm', 'docker', 'aws-cdk', 'pulumi'],
   },
   {
@@ -134,7 +134,7 @@ const products = [
     ],
     color: 'violet' as const,
     status: 'beta' as const,
-    githubUrl: 'https://github.com/agentplexus/omnivoice',
+    githubUrl: 'https://github.com/plexusone/omnivoice',
     integrations: ['deepgram', 'elevenlabs', 'twilio'],
   },
   {
@@ -151,7 +151,7 @@ const products = [
     ],
     color: 'cyan' as const,
     status: 'stable' as const,
-    githubUrl: 'https://github.com/agentplexus/assistantkit',
+    githubUrl: 'https://github.com/plexusone/assistantkit',
     integrations: ['claude-code', 'kiro'],
   },
 ]
