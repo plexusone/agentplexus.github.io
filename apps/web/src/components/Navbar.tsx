@@ -229,7 +229,7 @@ export function Navbar() {
             </div>
 
             <a
-              href="https://github.com/agentplexus"
+              href="https://github.com/plexusone"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-plexus-purple/20 border border-plexus-purple/50 text-plexus-purple-light hover:bg-plexus-purple/30 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-plexus-purple focus-visible:ring-offset-2 focus-visible:ring-offset-plexus-dark"
@@ -370,7 +370,7 @@ export function Navbar() {
                 RSS Feed
               </a>
               <a
-                href="https://github.com/agentplexus"
+                href="https://github.com/plexusone"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-plexus-purple-light rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-plexus-purple"
